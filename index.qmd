@@ -1,0 +1,33 @@
+---
+title: "Home"
+---
+
+Main research areas
+
+Ecology
+Community Ecology - Vegetation Ecology - Restoration Ecology
+
+Selected publications
+
+```{=html}
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+<div class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.baae.2019.11.003"></div>
+```
+
+Summary
+
+Photo, text, Logos, Education PhD in Ecology 2024, MSc in Ecology 2018, BSc in Ecology 2016
+
+Email: landschaftsoekologie-bauer <at> mailbox.org
+
+[Google Scholar](https://scholar.google.de/citations?user=oHhmOkkAAAAJ&hl=de)
+
+[Github](https://github.com/markus1.bauer)
+
+[ResearchGate](https://www.researchgate.net/profile/Markus-Bauer-8)
+
+[StackOverflow](https://stackoverflow.com/users/15853879/markus-bauer)
+
+
+

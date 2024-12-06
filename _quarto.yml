@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Landschaftsökologie Bauer | Landscape Ecology Bauer"
+  navbar:
+    right:
+      - href: index.qmd
+        text: "Home"
+      - href: index.qmd
+        text: "Services"
+      - href: index.qmd
+        text: "References"
+      - href: index.qmd
+        text: "About"
+      - href: index.qmd
+        text: "Contact"
+      - icon: github
+        href: "https://github.com/markus1.bauer"
+
+# page-footer:
+#     right: "This page is built [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
