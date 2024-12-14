@@ -1,1 +1,36 @@
 /* css styles */
+
+
+/* Vollbild-Hintergrundbild */
+.hero {
+  position: relative;
+  width: 100%; /* 100vw macht es bündig mit rechts*/
+  height: 60vh;
+  margin: 0;
+  padding: 0;
+  background: url(images/Glatthaferwiese.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Transparenter Hintergrundeffekt */
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Schwarze Transparenz */
+  z-index: -1;
+}
+
+.hero-content {
+  z-index: 2; /* Hebt den Text über den Hintergrund */
+}

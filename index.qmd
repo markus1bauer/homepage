@@ -2,118 +2,226 @@
 title: ""
 ---
 
-::: {.column-screen height=2cm}
-![Glatthaferwiese (C) Markus Bauer](images/Glatthaferwiese.jpg)
-:::
-
 ```{r include=FALSE}
+library(here)
 library(tidyverse)
 library(fontawesome)
 ```
 
+<section class="hero">
+
+<div class="hero-content">
+
+<font size="5">**Welcome**</font>
 ```{r pressure, echo=FALSE, out.width='50%', fig.align="center"}
-cropcircles::crop_circle("images/Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg", border_size = 4) %>%
+cropcircles::crop_circle(here("images", "Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg"), border_size = 4) %>%
   magick::image_read()
 ```
+</div>
 
-<center> **Dr. rer. nat. Markus Bauer** </center>
+</section>
+
+<font size="1">Salvio-Arrhenatheretum &copy; Markus Bauer</font>
+
+<center>**Dr. rer. nat. Markus Bauer**</center>
 
 <center>Postdoctoral researcher</center>
 
 <center>Self-employed vegetation mapper</center>
 
 <br>
-<br>
-
-`r fa(name = "envelope")` landschaftsoekologie-bauer@mailbox.org
-
-[`r fa(name = "linkedin", fill = "black", height = "3em")`](www.linkedin.com/in/markus-bauer-10a451228)
-[`r fa(name = "google-scholar", fill = "black", height = "3em")`](https://scholar.google.de/citations?user=oHhmOkkAAAAJ&hl=de)
-[`r fa(name = "orcid", fill = "black", height = "3em")`](https://orcid.org/0000-0001-5372-4174)
-[`r fa(name = "researchgate", fill = "black", height = "3em")`](https://www.researchgate.net/profile/Markus-Bauer-8)
-[`r fa(name = "square-github", fill = "black", height = "3em")`](https://github.com/markus1.bauer)
-[`r fa(name = "stack-overflow", fill = "black", height = "3em")`](https://stackoverflow.com/users/15853879/markus-bauer)
 
 ### About
 
-text
+I am a vegetation ecologist at the Technical University of Munich with a focus on restoration.
+Furthermore, I am a vegetation mapper in southern Bavaria. I work with modern technique and modern methods.
+
+[`r fa(name = "linkedin", fill = "black", height = "3em")`](www.linkedin.com/in/markus-bauer-10a451228) [`r fa(name = "google-scholar", fill = "black", height = "3em")`](https://scholar.google.de/citations?user=oHhmOkkAAAAJ&hl=de) [`r fa(name = "orcid", fill = "black", height = "3em")`](https://orcid.org/0000-0001-5372-4174) [`r fa(name = "researchgate", fill = "black", height = "3em")`](https://www.researchgate.net/profile/Markus-Bauer-8) [`r fa(name = "square-github", fill = "black", height = "3em")`](https://github.com/markus1.bauer) [`r fa(name = "stack-overflow", fill = "black", height = "3em")`](https://stackoverflow.com/users/15853879/markus-bauer)
 
 ***
 
 ### Education
 
-`r fa(name = "building-columns", height = "2em")` PhD in Ecology 2024
+`r fa(name = "building-columns", height = "2em")` PhD in Ecology 2024, Technical University of Munich
 
-Technical University of Munich
+`r fa(name = "building-columns", height = "2em")` MSc in Environmental Planning 2018, Technical University of Munich
 
-`r fa(name = "building-columns", height = "2em")` MSc in Environmental Planning 2018
-
-Technical University of Munich
-
-`r fa(name = "building-columns", height = "2em")` BSc in Landscape Architecture and Planning 2016
-
-Technical University of Munich
-
-:::{.column-screen style="background-color:#B8573E;"}
-
-# Leistungen
-
-* Kartierung Biotop- und Nutzungstypen
-
-* Biotopkartierung
-
-* Monitoring von Vegetation und einzelnen Pflanzenpopulationen
-
-* Datenanalyse mit R
-
-* GIS und Kartendarstellung (QGIS)
-
-* Dashboard mit Shiny
-
-:::
-
-# Referenzen
-
-#### Kartierung Biotop- und Nutzungstypen (BNT)
-
-#### Biotopkartierung
-
-#### Monitoring
-
-* Vegetationsmonitoring im NSG Garchinger Heide (2021–2022): Konzeptentwicklung und Erstaufnahme 2021 im Rahmen des Pflege- und Entwicklungsplans 2020 (PEPL) (Heideflächenverein Münchner Norden)
-
-***
+`r fa(name = "building-columns", height = "2em")` BSc in Landscape Architecture and Planning 2016, Technical University of Munich
 
 # Research
 
-Technical University of Munich
+:::: {style="display: grid; grid-template-columns: 30% 30% 30%; grid-column-gap: 5%; "}
 
-Chair of Restoration Ecology
+::: {}
 
-[Profile](https://www.lss.ls.tum.de/en/roek/team/dr-markus-bauer/)
-
-:::{.column-screen style="background-color:#B8573E;"}
-
-## Main Research Areas
-
-Community Ecology - Vegetation Ecology - Restoration Ecology
+Community Ecology
 
 :::
 
-## Publications
+::: {}
+
+Vegetation Ecology
+
+:::
+
+::: {}
+
+Restoration Ecology
+
+:::
+
+:::
+
+<br>
+Technical University of Munich
+<br>
+Chair of Restoration Ecology
+<br>
+[Profile](https://www.lss.ls.tum.de/en/roek/team/dr-markus-bauer/)
+
+# Publications
 
 [Complete list](https://scholar.google.de/citations?hl=de&user=oHhmOkkAAAAJ)
 
-#### Concepts
+#### **Concepts**
 
-Teixeira LH\*, **Bauer M**\*, Moosner M, Kollmann J (2023) River dike grasslands can reconcile biodiversity and different ecosystem services to provide multifunctionality. – *Basic and Applied Ecology* 66, 22–30. [https://doi.org/10.1016/j.baae.2022.12.001](https://doi.org/10.1016/j.baae.2022.12.001)
+Teixeira LH\*, **Bauer M**\*, Moosner M, Kollmann J (2023) River dike grasslands can reconcile biodiversity and different ecosystem services to provide multifunctionality. – *Basic and Applied Ecology* 66, 22–30. <https://doi.org/10.1016/j.baae.2022.12.001>
 
-#### Experiments
+#### **Experiments**
 
-**Bauer M**, Huber JK, Kollmann J (2023) Fit by design: Developing seed–substrate combinations to adapt dike grasslands to microclimatic variation. – *Journal of Applied Ecology* 60, 2413–2424. [https://doi.org/10.1111/1365-2664.14497](https://doi.org/10.1111/1365-2664.14497)
+**Bauer M**, Huber JK, Kollmann J (2023) Fit by design: Developing seed–substrate combinations to adapt dike grasslands to microclimatic variation. – *Journal of Applied Ecology* 60, 2413–2424. <https://doi.org/10.1111/1365-2664.14497>
 
-#### Monitoring
+#### **Monitoring**
 
-**Bauer M**, Huber JK, Kollmann J (2024) Beta diversity of restored river dike grasslands is strongly influenced by uncontrolled spatio-temporal variability. – *Journal of Vegetation Science* 35, e13293. [https://doi.org/10.1111/jvs.13293](https://doi.org/10.1111/jvs.13293)
+**Bauer M**, Huber JK, Kollmann J (2024) Beta diversity of restored river dike grasslands is strongly influenced by uncontrolled spatio-temporal variability. – *Journal of Vegetation Science* 35, e13293. <https://doi.org/10.1111/jvs.13293>
 
-**Bauer M** & Albrecht H (2018) Vegetation monitoring in a 100-year-old calcareous grassland reserve in Germany. – *Basic and Applied Ecology* 42, 15–26. [https://doi.org/10.1016/j.baae.2019.11.003](https://doi.org/10.1016/j.baae.2019.11.003)
+**Bauer M** & Albrecht H (2018) Vegetation monitoring in a 100-year-old calcareous grassland reserve in Germany. – *Basic and Applied Ecology* 42, 15–26. <https://doi.org/10.1016/j.baae.2019.11.003>
+
+# Leistungen als Vegetationskartierer
+
+-   Biotop- und Nutzungstypenkartierung
+
+    -   Biotopkartierung und Erassung von FFH-Lebensraumtypen
+
+    -   Biotop- und Nutzunstypenkartierung nach der Bayerischen Kompensationsverordnung (BayKompV)
+
+    -   Erstellung von Baumbestandsplänen
+
+-   Floristisch-vegetationskundliche Kartierungen
+
+    -   Vegetationskundliche Aufnahmen nach Braun-Blanquet und Londo (inkl. Waldmoose)
+
+    -   Erfassung einzelner Pflanzenpopulationen
+
+    -   Durchführung von Erfolgskontrollen und Aufnahme von Dauerbeobachtungsflächen
+
+    -   Einmessung mit ppm10xx GNSS Sensor (Genauigkeit 1 cm)
+
+-   Erstellung von Monitorinkonzepten
+
+    -   repräsentative Aufnahmeverteilung, die statistisch auswertbar sind
+
+-   Literaturrecherche zu Forschungsfragen
+
+-   Statistische Datenanalyse mit R
+
+    -   Maschinenlesbare Aufbereitung der Daten
+
+    -   Verwendung aktueller statistischer Methoden
+
+    -   Abbildungserstellung mit R
+
+-   GIS mit QGIS und R (sf package)
+
+    -   Digitalisierung von Vektordaten
+
+    -   Räumliche Analysen
+
+    -   Kartendarsellung
+
+-   Dashboard mit Shiny
+
+-   Erstellung wissenschaftlicher Publikation von Forschungsergebnissen
+
+***
+
+# Referenzen
+
+#### **Kartierung Biotop- und Nutzungstypen (BNT)** (Auswahl)
+
+* München Stadtgebiet, U-Bahnverlängerung Pasing-Freiham, 2025, 238 ha\
+  ‒ Projekt der Stadt München beauftragt durch Natur Perspektiven, Marzling
+* Grünland München-Riem, 2024, 9 ha\
+  ‒ Jestaedt + Partner, München
+* BPlan 163, Freising-Lerchenfeld, 2024, 4 ha\
+  ‒ Natur Perspektiven, Marzling
+* BPlan 72/03, München-Unterföhring, 2024, 3 ha\
+  ‒ Natur Perspektiven, Marzling
+* Max-Planck-Campus, Martinsried, München, 2023, 35 ha\
+  ‒ Natur Perspektiven, Marzling
+
+#### **Biotopkartierung**
+
+* Pionierübungsplatz Krailling 2023, 70 ha\
+  ‒ Vorbereitung für Bayern-Netz- Natur-Projekt ‒ Natur Perspektiven, Marzling
+* Fortbildung: Kurs Biotopkartierung 2023 (5 Tage)\
+  ‒ Bayerische Akademie für Naturschutz und Landschaftspflege (ANL), Rosenheim
+* Mähwiesenkartierung Lkr. Aichach 2022 ‒ Kartierung zur Potentialabschätzung\
+  ‒ peb, Dachau
+
+#### **Vertragsnaturschutzprogramm (VNP)**
+
+* Offenlandkartierung um Nesselwang und Pfronten (Ostallgäu) 2024\
+  ‒ Bissinger Landschaftsplanung, München
+
+#### **Monitoring**
+
+* Monitoring auf Ausgleichsflächen, München-Langwied, 2024\
+  ‒ Jestaedt + Partner, München
+
+* Bundeswaldinventur (BWI) ‒ Vegetationsmonitoring Bayern 2023 (≈ Los 8) Braun-Blanquet-Aufnahmen auf Dauerbeobachtungsflächen, die als FFH-LRT markiert waren\
+  ‒ Projekt vom Bundesamt für Naturschutz\
+  ‒ Beauftragt durch Hochschule Weihenstephan-Triesdorf (Prof. Dr. Jörg Ewald)
+
+* PEPL Garchinger Heide ‒ Vegetationsmonitoring 2021 Konzeptentwicklung und Erstaufnahme des Monitorings im Rahmen des PEPL\
+  ‒ Heideflächenverein Münchner Norden e.V. / Technische Universität München
+
+***
+
+# Kontakt
+
+<br>
+
+:::: {style="display: grid; grid-template-columns: 27% 40% 23%; grid-column-gap: 5%; "}
+
+::: {}
+
+<center>`r fa(name = "map-marker-alt", height = "2em")`
+
+**Landschaftsökologie Bauer**
+<br>
+Henkelstraße 19
+<br>
+85354 Freising
+<br>
+Deutschland</center>
+
+:::
+
+::: {}
+
+<center>`r fa(name = "envelope", height = "2em")`
+
+[landschaftsoekologie-bauer\@mailbox.org](mailto:landschaftsoekologie-bauer@mailbox.org)</center>
+
+:::
+
+::: {}
+
+<center>`r fa(name = "phone", height = "2em")`
+
+0049 152 5639 1781</center>
+
+:::
+
+:::
