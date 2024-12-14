@@ -3,26 +3,31 @@ project:
 
 website:
   title: "Landschaftsökologie Bauer | Landscape Ecology Bauer"
+  open-graph:
+    image: Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg
+    image-alt: "A Southern Brown Tree Frog with the ALA Labs logo"
+  twitter-card:
+    image: Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg
+    image-alt: "A Southern Brown Tree Frog with the ALA Labs logo"
+    card-style: summary_large_image
   navbar:
+    search: TRUE
+    background: secondary
     right:
-      - href: index.qmd
-        text: "Home"
-      - href: index.qmd
-        text: "Services"
-      - href: index.qmd
-        text: "References"
-      - href: index.qmd
-        text: "About"
-      - href: index.qmd
-        text: "Contact"
       - icon: github
         href: "https://github.com/markus1.bauer"
-
-# page-footer:
-#     right: "This page is built [Quarto](https://quarto.org/)"
+  page-footer:
+    right:
+      - text: "This page is built Quarto (https://quarto.org/)"
+      - text: "Impressum"
+        href: impressum.qmd
+      - text: "Datenschutz"
+        href: datenschutz.qmd
 
 format:
   html:
-    theme: lux
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
-    toc: true
+    toc: TRUE

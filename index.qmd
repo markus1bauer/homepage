@@ -1,33 +1,119 @@
 ---
-title: "Home"
+title: ""
 ---
 
-Main research areas
+::: {.column-screen height=2cm}
+![Glatthaferwiese (C) Markus Bauer](images/Glatthaferwiese.jpg)
+:::
 
-Ecology
-Community Ecology - Vegetation Ecology - Restoration Ecology
-
-Selected publications
-
-```{=html}
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.baae.2019.11.003"></div>
+```{r include=FALSE}
+library(tidyverse)
+library(fontawesome)
 ```
 
-Summary
+```{r pressure, echo=FALSE, out.width='50%', fig.align="center"}
+cropcircles::crop_circle("images/Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg", border_size = 4) %>%
+  magick::image_read()
+```
 
-Photo, text, Logos, Education PhD in Ecology 2024, MSc in Ecology 2018, BSc in Ecology 2016
+<center> **Dr. rer. nat. Markus Bauer** </center>
 
-Email: landschaftsoekologie-bauer <at> mailbox.org
+<center>Postdoctoral researcher</center>
 
-[Google Scholar](https://scholar.google.de/citations?user=oHhmOkkAAAAJ&hl=de)
+<center>Self-employed vegetation mapper</center>
 
-[Github](https://github.com/markus1.bauer)
+<br>
+<br>
 
-[ResearchGate](https://www.researchgate.net/profile/Markus-Bauer-8)
+`r fa(name = "envelope")` landschaftsoekologie-bauer@mailbox.org
 
-[StackOverflow](https://stackoverflow.com/users/15853879/markus-bauer)
+[`r fa(name = "linkedin", fill = "black", height = "3em")`](www.linkedin.com/in/markus-bauer-10a451228)
+[`r fa(name = "google-scholar", fill = "black", height = "3em")`](https://scholar.google.de/citations?user=oHhmOkkAAAAJ&hl=de)
+[`r fa(name = "orcid", fill = "black", height = "3em")`](https://orcid.org/0000-0001-5372-4174)
+[`r fa(name = "researchgate", fill = "black", height = "3em")`](https://www.researchgate.net/profile/Markus-Bauer-8)
+[`r fa(name = "square-github", fill = "black", height = "3em")`](https://github.com/markus1.bauer)
+[`r fa(name = "stack-overflow", fill = "black", height = "3em")`](https://stackoverflow.com/users/15853879/markus-bauer)
 
+### About
 
+text
 
+***
+
+### Education
+
+`r fa(name = "building-columns", height = "2em")` PhD in Ecology 2024
+
+Technical University of Munich
+
+`r fa(name = "building-columns", height = "2em")` MSc in Environmental Planning 2018
+
+Technical University of Munich
+
+`r fa(name = "building-columns", height = "2em")` BSc in Landscape Architecture and Planning 2016
+
+Technical University of Munich
+
+:::{.column-screen style="background-color:#B8573E;"}
+
+# Leistungen
+
+* Kartierung Biotop- und Nutzungstypen
+
+* Biotopkartierung
+
+* Monitoring von Vegetation und einzelnen Pflanzenpopulationen
+
+* Datenanalyse mit R
+
+* GIS und Kartendarstellung (QGIS)
+
+* Dashboard mit Shiny
+
+:::
+
+# Referenzen
+
+#### Kartierung Biotop- und Nutzungstypen (BNT)
+
+#### Biotopkartierung
+
+#### Monitoring
+
+* Vegetationsmonitoring im NSG Garchinger Heide (2021–2022): Konzeptentwicklung und Erstaufnahme 2021 im Rahmen des Pflege- und Entwicklungsplans 2020 (PEPL) (Heideflächenverein Münchner Norden)
+
+***
+
+# Research
+
+Technical University of Munich
+
+Chair of Restoration Ecology
+
+[Profile](https://www.lss.ls.tum.de/en/roek/team/dr-markus-bauer/)
+
+:::{.column-screen style="background-color:#B8573E;"}
+
+## Main Research Areas
+
+Community Ecology - Vegetation Ecology - Restoration Ecology
+
+:::
+
+## Publications
+
+[Complete list](https://scholar.google.de/citations?hl=de&user=oHhmOkkAAAAJ)
+
+#### Concepts
+
+Teixeira LH\*, **Bauer M**\*, Moosner M, Kollmann J (2023) River dike grasslands can reconcile biodiversity and different ecosystem services to provide multifunctionality. – *Basic and Applied Ecology* 66, 22–30. [https://doi.org/10.1016/j.baae.2022.12.001](https://doi.org/10.1016/j.baae.2022.12.001)
+
+#### Experiments
+
+**Bauer M**, Huber JK, Kollmann J (2023) Fit by design: Developing seed–substrate combinations to adapt dike grasslands to microclimatic variation. – *Journal of Applied Ecology* 60, 2413–2424. [https://doi.org/10.1111/1365-2664.14497](https://doi.org/10.1111/1365-2664.14497)
+
+#### Monitoring
+
+**Bauer M**, Huber JK, Kollmann J (2024) Beta diversity of restored river dike grasslands is strongly influenced by uncontrolled spatio-temporal variability. – *Journal of Vegetation Science* 35, e13293. [https://doi.org/10.1111/jvs.13293](https://doi.org/10.1111/jvs.13293)
+
+**Bauer M** & Albrecht H (2018) Vegetation monitoring in a 100-year-old calcareous grassland reserve in Germany. – *Basic and Applied Ecology* 42, 15–26. [https://doi.org/10.1016/j.baae.2019.11.003](https://doi.org/10.1016/j.baae.2019.11.003)
