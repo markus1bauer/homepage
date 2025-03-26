@@ -10,76 +10,84 @@ library(fontawesome)
 
 <section class="hero">
 
-<div class="hero-content">
+<center><div class="hero-content"></center>
 
-<font size="5">**Welcome**</font>
+<center>Dr. rer. nat.</center>
+
+<center><font size="14">**Markus Bauer**</font></center>
+<br>
 ```{r pressure, echo=FALSE, out.width='50%', fig.align="center"}
-cropcircles::crop_circle(here("images", "Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg"), border_size = 4) %>%
+cropcircles::crop_circle(
+  here("images", "Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg"),
+  border_size = 4
+  ) %>%
   magick::image_read()
 ```
+
 </div>
 
 </section>
 
 <font size="1">Salvio-Arrhenatheretum &copy; Markus Bauer</font>
 
-<center>**Dr. rer. nat. Markus Bauer**</center>
 
-<center>Postdoctoral researcher</center>
-
-<center>Self-employed vegetation mapper</center>
-
+<center>Researcher | [Technical University of Munich](index.qmd#sec-research)</center>
 <br>
+<center>Self-employed vegetation mapper | [Landschaftsökologie Bauer](index.qmd#sec-loekb)</center>
+<br>
+<center>[`r fa(name = "square-github", fill = "black", height = "2em")`](https://github.com/markus1.bauer) [`r fa(name = "google-scholar", fill = "black", height = "2em")`](https://scholar.google.de/citations?user=oHhmOkkAAAAJ&hl=de) [`r fa(name = "linkedin", fill = "black", height = "2em")`](www.linkedin.com/in/markus-bauer-10a451228) [`r fa(name = "orcid", fill = "black", height = "2em")`](https://orcid.org/0000-0001-5372-4174) [`r fa(name = "researchgate", fill = "black", height = "2em")`](https://www.researchgate.net/profile/Markus-Bauer-8)  [`r fa(name = "stack-overflow", fill = "black", height = "2em")`](https://stackoverflow.com/users/15853879/markus-bauer)</center>
 
 ### About
 
-I am a vegetation ecologist at the Technical University of Munich with a focus on restoration.
-Furthermore, I am a vegetation mapper in southern Bavaria. I work with modern technique and modern methods.
+I am an ecologist interested in the predictable development of target vegetation through ecological restoration approaches. This should lead to increased biodiversity in degraded protected areas and in modern landscape features that can therefore contribute to green infrastructure.
+<br>
+Furthermore, I am a vegetation mapper in southern Bavaria. I work with GNSS for an exact monitoring.
 
-[`r fa(name = "linkedin", fill = "black", height = "3em")`](www.linkedin.com/in/markus-bauer-10a451228) [`r fa(name = "google-scholar", fill = "black", height = "3em")`](https://scholar.google.de/citations?user=oHhmOkkAAAAJ&hl=de) [`r fa(name = "orcid", fill = "black", height = "3em")`](https://orcid.org/0000-0001-5372-4174) [`r fa(name = "researchgate", fill = "black", height = "3em")`](https://www.researchgate.net/profile/Markus-Bauer-8) [`r fa(name = "square-github", fill = "black", height = "3em")`](https://github.com/markus1.bauer) [`r fa(name = "stack-overflow", fill = "black", height = "3em")`](https://stackoverflow.com/users/15853879/markus-bauer)
+### Über
+
+Ich bin Ökologe und interessiere mich für die vorhersehbare Entwicklung der Zielvegetation durch Renaturierung. Dies soll zu einer erhöhten biologischen Vielfalt in degradierten Schutzgebieten und in modernen Landschaftselementen führen, die so zur grünen Infrastruktur beitragen können.
+<br>
+Außerdem bin ich Vegetationskartierer in Südbayern. Ich arbeite mit GNSS für ein genaues Monitoring.
+
 
 ***
 
-### Education
 
-`r fa(name = "building-columns", height = "2em")` PhD in Ecology 2024, Technical University of Munich
+# Research {#sec-research}
 
-`r fa(name = "building-columns", height = "2em")` MSc in Environmental Planning 2018, Technical University of Munich
+:::{.column-screen style="background-color:#B8573E;"}
 
-`r fa(name = "building-columns", height = "2em")` BSc in Landscape Architecture and Planning 2016, Technical University of Munich
+:::: {style="display: grid; grid-template-columns: 30% 20% 30%; grid-column-gap: 5%; "}
 
-# Research
+:::{}
 
-:::: {style="display: grid; grid-template-columns: 30% 30% 30%; grid-column-gap: 5%; "}
-
-::: {}
-
-Community Ecology
-
-:::
-
-::: {}
-
-Vegetation Ecology
-
-:::
-
-::: {}
-
-Restoration Ecology
-
-:::
-
-:::
-
+<center>![](images/landscape_4932762.png)</center>
 <br>
-Technical University of Munich
-<br>
-Chair of Restoration Ecology
-<br>
-[Profile](https://www.lss.ls.tum.de/en/roek/team/dr-markus-bauer/)
+<center>Grassland Ecology</center>
 
-# Publications
+:::
+
+:::{}
+
+<center>![](images/landscape_4932762.png)</center>
+<br>
+<center>Community Ecology</center>
+
+:::
+
+:::{}
+
+<center>![](images/landscape_4932762.png)</center>
+<br>
+<center>Restoration Ecology</center>
+
+:::
+
+::::
+
+:::
+
+### Publications
 
 [Complete list](https://scholar.google.de/citations?hl=de&user=oHhmOkkAAAAJ)
 
@@ -97,7 +105,33 @@ Teixeira LH\*, **Bauer M**\*, Moosner M, Kollmann J (2023) River dike grasslands
 
 **Bauer M** & Albrecht H (2018) Vegetation monitoring in a 100-year-old calcareous grassland reserve in Germany. – *Basic and Applied Ecology* 42, 15–26. <https://doi.org/10.1016/j.baae.2019.11.003>
 
-# Leistungen als Vegetationskartierer
+### Affiliation
+
+**Postoctoral researcher**
+
+Technical University of Munich
+<br>
+TUM School of Life Science
+<br>
+Chair of Restoration Ecology
+
+Emil-Ramann-Straße 6
+<br>
+85354 Freising-Weihenstephan
+<br>
+Germany
+
+Tel. +49 8161 712 493
+<br>
+markus1.bauer[at]tum.de
+<br>
+[www.lss.ls.tum.de/roek](www.lss.ls.tum.de/en/roek)
+<br>
+[Homepage/Profile](https://www.lss.ls.tum.de/en/roek/team/dr-markus-bauer/)
+
+# Landschaftsökologie Bauer {#sec-loekb}
+
+### Leistungen als Vegetationskartierer
 
 -   Biotop- und Nutzungstypenkartierung
 
@@ -145,7 +179,7 @@ Teixeira LH\*, **Bauer M**\*, Moosner M, Kollmann J (2023) River dike grasslands
 
 ***
 
-# Referenzen
+### Referenzen
 
 #### **Kartierung Biotop- und Nutzungstypen (BNT)** (Auswahl)
 
@@ -199,8 +233,6 @@ Teixeira LH\*, **Bauer M**\*, Moosner M, Kollmann J (2023) River dike grasslands
 <center>`r fa(name = "map-marker-alt", height = "2em")`
 
 **Landschaftsökologie Bauer**
-<br>
-Henkelstraße 19
 <br>
 85354 Freising
 <br>
