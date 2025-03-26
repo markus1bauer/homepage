@@ -3,26 +3,31 @@ project:
 
 website:
   title: "Landschaftsökologie Bauer"
-  title-block-banner: images/Glatthaferwiese.jpg
   back-to-top-navigation: true
   search: false
   navbar:
-    background: transparent
-    foreground: "#000000"
-    left:
+    background: "#0d730d"
+    foreground: "white"
+    color: "white"
+    right:
       - icon: house-door-fill
         text: " "
         href: index.qmd
       - text: "Research"
         href: index.qmd#sec-research
+      - text: "Publications"
+        href: index.qmd#sec-publications
       - text: "Vegetationskartierung"
         href: index.qmd#sec-loekb
-    right:
+      - text: "Referenzen"
+        href: index.qmd#sec-referenzen
+      - text: "Kontakt"
+        href: index.qmd#sec-kontakt
       - icon: github
         href: "https://github.com/markus1.bauer"
   page-footer:
     right:
-      - text: "This page is built with Quarto (https://quarto.org/)"
+      - text: "(C) Markus Bauer, Germany; Made with [Quarto](https://quarto.org/)"
       - text: "Impressum"
         href: impressum.qmd
       - text: "Datenschutz"
@@ -33,6 +38,5 @@ format:
   html:
     fontsize: 12pt
     monofont: Arial
-    css: styles.css
     toc: FALSE
     

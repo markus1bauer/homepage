@@ -5,20 +5,31 @@ library(tidyverse)
 library(fontawesome)
 ```
 
-::: {.column-screen}
+<style>
+  body {
+  background-image: linear-gradient( rgba(0,0,0,.4), rgba(0,0,0,.4) ), url(images/Glatthaferwiese.jpg);
+  background-color: rgba(255, 255, 255, 0.1);
+  background-size: Auto 400px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+</style>
 
-::: {.column-body}
+<center>
+<p style="color:white;">
+Dr. rer. nat.<br>
+**Markus Bauer**
+</p>
+
+</center>
 
 <center>
 
-Dr. rer. nat.<br>
-<font size="14">**Markus Bauer**</font>
-
-
-```{r pressure, echo=FALSE, out.width='20%', align="center"}
+```{r pressure, echo=FALSE, out.width='25%', align="center"}
 cropcircles::crop_circle(
   here("images", "Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg"),
-  border_size = 4
+  border_size = 10,
+  border_colour = "white"
   ) %>%
   magick::image_read()
 ```
@@ -27,14 +38,9 @@ cropcircles::crop_circle(
 
 <left>
 
-<font size="1">Salvio-Arrhenatheretum &copy; Markus Bauer</font>
+<p style="color:black;"><font size="1">Salvio-Arrhenatheretum &copy; Markus Bauer</font></p>
 
 </left>
-
-:::
-
-:::
-
 
 <center>
 
@@ -112,9 +118,11 @@ Außerdem bin ich Vegetationskartierer in Südbayern. Ich arbeite mit GNSS für 
 
 ::::
 
+<br>
+
 :::
 
-### Publications
+### Publications {#sec-publications}
 
 [Complete list](https://scholar.google.de/citations?hl=de&user=oHhmOkkAAAAJ)
 
@@ -164,57 +172,54 @@ markus1.bauer[at]tum.de
 
 # [Landschaftsökologie Bauer]{style="color:white;"}{#sec-loekb}
 
+<br>
+
 :::
 
 :::
 
 ### Leistungen als Vegetationskartierer
 
+::: {.grid}
+
+::: {.g-col-6}
+
 -   Biotop- und Nutzungstypenkartierung
-
     -   Biotopkartierung und Erassung von FFH-Lebensraumtypen
-
     -   Biotop- und Nutzunstypenkartierung nach der Bayerischen Kompensationsverordnung (BayKompV)
-
     -   Erstellung von Baumbestandsplänen
-
 -   Floristisch-vegetationskundliche Kartierungen
-
     -   Vegetationskundliche Aufnahmen nach Braun-Blanquet und Londo (inkl. Waldmoose)
-
     -   Erfassung einzelner Pflanzenpopulationen
-
     -   Durchführung von Erfolgskontrollen und Aufnahme von Dauerbeobachtungsflächen
-
     -   Einmessung mit ppm10xx GNSS Sensor (Genauigkeit 1 cm)
 
--   Erstellung von Monitorinkonzepten
 
-    -   repräsentative Aufnahmeverteilung, die statistisch auswertbar sind
+:::
 
--   Literaturrecherche zu Forschungsfragen
+::: {.g-col-6}
 
 -   Statistische Datenanalyse mit R
-
     -   Maschinenlesbare Aufbereitung der Daten
-
     -   Verwendung aktueller statistischer Methoden
-
     -   Abbildungserstellung mit R
-
 -   GIS mit QGIS und R (sf package)
-
     -   Digitalisierung von Vektordaten
-
     -   Räumliche Analysen
-
     -   Kartendarsellung
-
 -   Dashboard mit Shiny
-
+-   Erstellung von Monitorinkonzepten
+    -   repräsentative Aufnahmeverteilung, die statistisch auswertbar sind
+-   Literaturrecherche zu Forschungsfragen
 -   Erstellung wissenschaftlicher Publikation von Forschungsergebnissen
 
-### Referenzen
+:::
+
+:::
+
+***
+
+### Referenzen {#sec-referenzen}
 
 #### **Kartierung Biotop- und Nutzungstypen (BNT)** (Auswahl)
 
@@ -257,7 +262,7 @@ markus1.bauer[at]tum.de
 
 ***
 
-# Kontakt
+# Kontakt {#sec-kontakt}
 
 <br>
 

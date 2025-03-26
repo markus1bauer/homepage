@@ -2,14 +2,22 @@
 
 
 /* Vollbild-Hintergrundbild */
-.hero {
+.hero-container {
+  overflow: hidden;
   position: relative;
-  width: 100%; /* 100vw macht es bündig mit rechts*/
-  height: 60vh;
+  max-height: 52vh;
+  height: 52vh;
+}
+
+.hero-image {
+  position: absolute;
+  bottom: 0;
   margin: 0;
   padding: 0;
   background: url(images/Glatthaferwiese.jpg) no-repeat center center;
   background-size: cover;
+  width: 100%; /* 100vw macht es bündig mit rechts*/
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
