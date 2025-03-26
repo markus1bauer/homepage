@@ -8,15 +8,20 @@ library(tidyverse)
 library(fontawesome)
 ```
 
+::: {.column-screen}
+
 <section class="hero">
 
-<center><div class="hero-content"></center>
+::: {.column-body}
 
-<center>Dr. rer. nat.</center>
+<center>
 
-<center><font size="14">**Markus Bauer**</font></center>
-<br>
-```{r pressure, echo=FALSE, out.width='50%', fig.align="center"}
+Dr. rer. nat.<br>
+<font size="14">**Markus Bauer**</font>
+
+</center>
+
+```{r pressure, echo=FALSE, out.width='20%'}
 cropcircles::crop_circle(
   here("images", "Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg"),
   border_size = 4
@@ -24,18 +29,33 @@ cropcircles::crop_circle(
   magick::image_read()
 ```
 
-</div>
-
-</section>
+<left>
 
 <font size="1">Salvio-Arrhenatheretum &copy; Markus Bauer</font>
 
+</left>
 
-<center>Researcher | [Technical University of Munich](index.qmd#sec-research)</center>
+:::
+
+</section>
+
+:::
+
+
+<center>
+
+Researcher | [Technical University of Munich](index.qmd#sec-research)
 <br>
-<center>Self-employed vegetation mapper | [Landschaftsökologie Bauer](index.qmd#sec-loekb)</center>
+Self-employed vegetation mapper | [Landschaftsökologie Bauer](index.qmd#sec-loekb)
 <br>
-<center>[`r fa(name = "square-github", fill = "black", height = "2em")`](https://github.com/markus1.bauer) [`r fa(name = "google-scholar", fill = "black", height = "2em")`](https://scholar.google.de/citations?user=oHhmOkkAAAAJ&hl=de) [`r fa(name = "linkedin", fill = "black", height = "2em")`](www.linkedin.com/in/markus-bauer-10a451228) [`r fa(name = "orcid", fill = "black", height = "2em")`](https://orcid.org/0000-0001-5372-4174) [`r fa(name = "researchgate", fill = "black", height = "2em")`](https://www.researchgate.net/profile/Markus-Bauer-8)  [`r fa(name = "stack-overflow", fill = "black", height = "2em")`](https://stackoverflow.com/users/15853879/markus-bauer)</center>
+
+[`r fa(name = "square-github", fill = "black", height = "2em")`](https://github.com/markus1.bauer)
+[`r fa(name = "google-scholar", fill = "black", height = "2em")`](https://scholar.google.de/citations?user=oHhmOkkAAAAJ&hl=de) [`r fa(name = "linkedin", fill = "black", height = "2em")`](www.linkedin.com/in/markus-bauer-10a451228)
+[`r fa(name = "orcid", fill = "black", height = "2em")`](https://orcid.org/0000-0001-5372-4174)
+[`r fa(name = "researchgate", fill = "black", height = "2em")`](https://www.researchgate.net/profile/Markus-Bauer-8)
+[`r fa(name = "stack-overflow", fill = "black", height = "2em")`](https://stackoverflow.com/users/15853879/markus-bauer)
+
+</center>
 
 ### About
 
@@ -50,36 +70,49 @@ Ich bin Ökologe und interessiere mich für die vorhersehbare Entwicklung der Zi
 Außerdem bin ich Vegetationskartierer in Südbayern. Ich arbeite mit GNSS für ein genaues Monitoring.
 
 
-***
+::: {.column-screen style="background-color:#0d730d"}
 
+# [Research]{style="color:white;"} {#sec-research}
 
-# Research {#sec-research}
+::: {.column-body}
 
-:::{.column-screen style="background-color:#B8573E;"}
-
-:::: {style="display: grid; grid-template-columns: 30% 20% 30%; grid-column-gap: 5%; "}
+:::: {style="display: grid; grid-template-columns: 27% 40% 23%; grid-column-gap: 5%; "}
 
 :::{}
 
-<center>![](images/landscape_4932762.png)</center>
+<center>
+
+![](images/landscape_4932762.png)
 <br>
-<center>Grassland Ecology</center>
+[**Grassland Ecology**]{style="color:white;"}
+
+</center>
 
 :::
 
 :::{}
 
-<center>![](images/landscape_4932762.png)</center>
+<center>
+
+![](images/landscape_4932762.png)
 <br>
-<center>Community Ecology</center>
+[**Community Ecology**]{style="color:white;"}
+
+</center>
 
 :::
 
 :::{}
 
-<center>![](images/landscape_4932762.png)</center>
+<center>
+
+![](images/landscape_4932762.png)
 <br>
-<center>Restoration Ecology</center>
+[**Restoration Ecology**]{style="color:white;"}
+
+</center>
+
+:::
 
 :::
 
@@ -129,7 +162,17 @@ markus1.bauer[at]tum.de
 <br>
 [Homepage/Profile](https://www.lss.ls.tum.de/en/roek/team/dr-markus-bauer/)
 
-# Landschaftsökologie Bauer {#sec-loekb}
+<br>
+
+::: {.column-screen style="background-color:#0d730d"}
+
+::: {.column-body}
+
+# [Landschaftsökologie Bauer]{style="color:white;"}{#sec-loekb}
+
+:::
+
+:::
 
 ### Leistungen als Vegetationskartierer
 
@@ -176,8 +219,6 @@ markus1.bauer[at]tum.de
 -   Dashboard mit Shiny
 
 -   Erstellung wissenschaftlicher Publikation von Forschungsergebnissen
-
-***
 
 ### Referenzen
 

@@ -3,19 +3,13 @@ project:
 
 website:
   title: "Landschaftsökologie Bauer"
-  open-graph:
-    image: Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg
-    image-alt: "A Southern Brown Tree Frog with the ALA Labs logo"
-  twitter-card:
-    image: Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg
-    image-alt: "A Southern Brown Tree Frog with the ALA Labs logo"
-    card-style: summary_large_image
   navbar:
     search: false
     background: "#222322"
     foreground: "#FFFFFF"
     right:
-      - text: "Home"
+      - icon: house-door-fill
+        text: " "
         href: index.qmd
       - text: "Research"
         href: index.qmd#sec-research
@@ -35,9 +29,6 @@ format:
   html:
     fontsize: 12pt
     monofont: Arial
-    theme:
-      light: flatly
-      dark: darkly
     css: styles.css
-    toc: false
+    toc: FALSE
     
