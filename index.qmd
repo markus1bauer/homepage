@@ -1,6 +1,3 @@
----
-title: ""
----
 
 ```{r include=FALSE}
 library(here)
@@ -10,8 +7,6 @@ library(fontawesome)
 
 ::: {.column-screen}
 
-<section class="hero">
-
 ::: {.column-body}
 
 <center>
@@ -19,15 +14,16 @@ library(fontawesome)
 Dr. rer. nat.<br>
 <font size="14">**Markus Bauer**</font>
 
-</center>
 
-```{r pressure, echo=FALSE, out.width='20%'}
+```{r pressure, echo=FALSE, out.width='20%', align="center"}
 cropcircles::crop_circle(
   here("images", "Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg"),
   border_size = 4
   ) %>%
   magick::image_read()
 ```
+
+</center>
 
 <left>
 
@@ -36,8 +32,6 @@ cropcircles::crop_circle(
 </left>
 
 :::
-
-</section>
 
 :::
 

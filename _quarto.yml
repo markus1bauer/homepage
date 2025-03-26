@@ -3,11 +3,13 @@ project:
 
 website:
   title: "Landschaftsökologie Bauer"
+  title-block-banner: images/Glatthaferwiese.jpg
+  back-to-top-navigation: true
+  search: false
   navbar:
-    search: false
-    background: "#222322"
-    foreground: "#FFFFFF"
-    right:
+    background: transparent
+    foreground: "#000000"
+    left:
       - icon: house-door-fill
         text: " "
         href: index.qmd
@@ -15,6 +17,7 @@ website:
         href: index.qmd#sec-research
       - text: "Vegetationskartierung"
         href: index.qmd#sec-loekb
+    right:
       - icon: github
         href: "https://github.com/markus1.bauer"
   page-footer:
@@ -24,6 +27,7 @@ website:
         href: impressum.qmd
       - text: "Datenschutz"
         href: datenschutz.qmd
+  
 
 format:
   html:
