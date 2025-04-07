@@ -82,7 +82,7 @@ Außerdem bin ich Vegetationskartierer in Südbayern. Ich arbeite mit GNSS für 
 
 <center>
 
-![](images/landscape_4932762.png)
+![](images/grass_4123310_white.png){width=128}
 <br>
 [**Grassland Ecology**]{style="color:white;"}
 
@@ -94,7 +94,7 @@ Außerdem bin ich Vegetationskartierer in Südbayern. Ich arbeite mit GNSS für 
 
 <center>
 
-![](images/landscape_4932762.png)
+![](images/forest_15423883_white.png){width=128}
 <br>
 [**Community Ecology**]{style="color:white;"}
 
@@ -106,7 +106,7 @@ Außerdem bin ich Vegetationskartierer in Südbayern. Ich arbeite mit GNSS für 
 
 <center>
 
-![](images/landscape_4932762.png)
+![](images/landscape_4932762_white.png){width=128}
 <br>
 [**Restoration Ecology**]{style="color:white;"}
 
@@ -168,37 +168,73 @@ markus1.bauer[at]tum.de
 
 ::: {.column-screen style="background-color:#0d730d"}
 
-::: {.column-body}
-
 # [Landschaftsökologie Bauer]{style="color:white;"}{#sec-loekb}
-
 <br>
 
+::: {.column-body}
+
+:::: {style="display: grid; grid-template-columns: 27% 40% 23%; grid-column-gap: 5%; "}
+
+:::{}
+
+<center>
+
+![](images/map_636573_white.png){width=128}
+<br>
+[**Vegetationskartierung**]{style="color:white;"}
+
+</center>
+
+:::
+
+:::{}
+
+<center>
+
+![](images/chart_18727796_white.png){width=128}
+<br>
+[**Statistische Datenanalyse**]{style="color:white;"}
+
+</center>
+
+:::
+
+:::{}
+
+<center>
+
+![](images/project_10164341_white.png){width=128}
+<br>
+[**Monitoring und Literaturstudien**]{style="color:white;"}
+
+</center>
+
 :::
 
 :::
 
-### Leistungen als Vegetationskartierer
-
-::: {.grid}
-
-::: {.g-col-6}
-
--   Biotop- und Nutzungstypenkartierung
-    -   Biotopkartierung und Erassung von FFH-Lebensraumtypen
-    -   Biotop- und Nutzunstypenkartierung nach der Bayerischen Kompensationsverordnung (BayKompV)
-    -   Erstellung von Baumbestandsplänen
--   Floristisch-vegetationskundliche Kartierungen
-    -   Vegetationskundliche Aufnahmen nach Braun-Blanquet und Londo (inkl. Waldmoose)
-    -   Erfassung einzelner Pflanzenpopulationen
-    -   Durchführung von Erfolgskontrollen und Aufnahme von Dauerbeobachtungsflächen
-    -   Einmessung mit ppm10xx GNSS Sensor (Genauigkeit 1 cm)
-
+::::
 
 :::
 
-::: {.g-col-6}
+:::: {style="display: grid; grid-template-columns: 27% 40% 23%; grid-column-gap: 5%; "}
 
+:::{}
+
+<br>
+-   BNT-Kartierung (BayKompV)
+-   FFH-Lebensraumtypen
+-   Baumbestandspläne
+-   Floristisch-vegetationskundliche Aufnahmen
+-   Populationserfassung
+-   Erfolgskontrolle und Dauerbeobachtungsflächen
+-   Einmessung mit ppm10xx GNSS Sensor (Genauigkeit 1 cm)
+
+:::
+
+:::{}
+
+<br>
 -   Statistische Datenanalyse mit R
     -   Maschinenlesbare Aufbereitung der Daten
     -   Verwendung aktueller statistischer Methoden
@@ -208,10 +244,16 @@ markus1.bauer[at]tum.de
     -   Räumliche Analysen
     -   Kartendarsellung
 -   Dashboard mit Shiny
+
+:::
+
+:::{}
+
+<br>
 -   Erstellung von Monitorinkonzepten
     -   repräsentative Aufnahmeverteilung, die statistisch auswertbar sind
 -   Literaturrecherche zu Forschungsfragen
--   Erstellung wissenschaftlicher Publikation von Forschungsergebnissen
+-   Erstellung von Publikationen für Fachzeitschriften wie Natur und Landschaft oder ANLiegen Natur
 
 :::
 
@@ -259,41 +301,60 @@ markus1.bauer[at]tum.de
 
 * PEPL Garchinger Heide ‒ Vegetationsmonitoring 2021 Konzeptentwicklung und Erstaufnahme des Monitorings im Rahmen des PEPL\
   ‒ Heideflächenverein Münchner Norden e.V. / Technische Universität München
-
-***
-
-# Kontakt {#sec-kontakt}
-
 <br>
+
+::: {.column-screen style="background-color:#0d730d"}
+
+# [Kontakt]{style="color:white;"}{#sec-kontakt}
+
+::: {.column-body}
 
 :::: {style="display: grid; grid-template-columns: 27% 40% 23%; grid-column-gap: 5%; "}
 
 ::: {}
 
-<center>`r fa(name = "map-marker-alt", height = "2em")`
+<center>
 
-**Landschaftsökologie Bauer**
+[`r fa(name = "map-marker-alt", height = "2em")`]{style="color:white;"}
+
+[**Landschaftsökologie Bauer**
 <br>
 85354 Freising
 <br>
-Deutschland</center>
+Deutschland]{style="color:white;"}
+
+</center>
 
 :::
 
 ::: {}
 
-<center>`r fa(name = "envelope", height = "2em")`
+<center>
 
-[landschaftsoekologie-bauer\@mailbox.org](mailto:landschaftsoekologie-bauer@mailbox.org)</center>
+[`r fa(name = "envelope", height = "2em")`]{style="color:white;"}
+
+[landschaftsoekologie-bauer\@mailbox.org](mailto:landschaftsoekologie-bauer@mailbox.org){style="color:white;"}
+
+</center>
 
 :::
 
 ::: {}
 
-<center>`r fa(name = "phone", height = "2em")`
+<center>
 
-0049 152 5639 1781</center>
+[`r fa(name = "phone", height = "2em")`]{style="color:white;"}
+
+[0049 152 5639 1781]{style="color:white;"}
+
+</center>
 
 :::
+
+:::
+
+:::
+
+<br>
 
 :::
