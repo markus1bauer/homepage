@@ -34,7 +34,6 @@ website:
       - text: "Datenschutz"
         href: datenschutz.qmd
   
-
 format:
   html:
     fontsize: 14pt
