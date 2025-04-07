@@ -5,6 +5,9 @@ website:
   title: "Landschaftsökologie Bauer"
   back-to-top-navigation: true
   search: false
+  theme:
+    light: flatly
+    dark: darkly
   navbar:
     background: "#0d730d"
     foreground: "white"
@@ -27,7 +30,7 @@ website:
         href: "https://github.com/markus1.bauer"
   page-footer:
     right:
-      - text: "(C) Markus Bauer, Germany; Made with [Quarto](https://quarto.org/)"
+      - text: <p>&#169; Markus Bauer, Germany; Made with <a href="https://www.quarto.org">Quarto</a></p>
       - text: "Impressum"
         href: impressum.qmd
       - text: "Datenschutz"
@@ -36,7 +39,7 @@ website:
 
 format:
   html:
-    fontsize: 12pt
+    fontsize: 14pt
     monofont: Arial
     toc: FALSE
     

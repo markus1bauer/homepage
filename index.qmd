@@ -7,7 +7,7 @@ library(fontawesome)
 
 <style>
   body {
-  background-image: linear-gradient( rgba(0,0,0,.4), rgba(0,0,0,.4) ), url(images/Glatthaferwiese.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(images/Glatthaferwiese_schmal.jpg);
   background-color: rgba(255, 255, 255, 0.1);
   background-size: Auto 400px;
   background-repeat: no-repeat;
@@ -16,6 +16,7 @@ library(fontawesome)
 </style>
 
 <center>
+
 <p style="color:white;">
 Dr. rer. nat.<br>
 **Markus Bauer**
@@ -44,9 +45,9 @@ cropcircles::crop_circle(
 
 <center>
 
-Researcher | [Technical University of Munich](index.qmd#sec-research)
+Researcher | Technical University of Munich
 <br>
-Self-employed vegetation mapper | [Landschaftsökologie Bauer](index.qmd#sec-loekb)
+Self-employed vegetation mapper | Landschaftsökologie Bauer
 <br>
 
 [`r fa(name = "square-github", fill = "black", height = "2em")`](https://github.com/markus1.bauer)
@@ -57,18 +58,41 @@ Self-employed vegetation mapper | [Landschaftsökologie Bauer](index.qmd#sec-loe
 
 </center>
 
+:::: {style="display: grid; grid-template-columns: 45% 45%; grid-column-gap: 0%; "}
+
+:::{}
+
+<center>
+
+[Research](index.qmd#sec-research){.btn .btn-outline-primary .btn role="button"}
+
+</center>
+
+:::
+
+:::{}
+
+<center>
+
+[Vegetationskartierung | Vegetation mapping](index.qmd#sec-loekb){.btn .btn-outline-primary .btn role="button"}
+
+</center>
+
+:::
+
+::::
+
 ### About
 
 I am an ecologist interested in the predictable development of target vegetation through ecological restoration approaches. This should lead to increased biodiversity in degraded protected areas and in modern landscape features that can therefore contribute to green infrastructure.
 <br>
-Furthermore, I am a vegetation mapper in southern Bavaria. I work with GNSS for an exact monitoring.
+Furthermore, I am a self-employed vegetation mapper in southern Bavaria. I work with GNSS for an exact monitoring.
 
 ### Über
 
 Ich bin Ökologe und interessiere mich für die vorhersehbare Entwicklung der Zielvegetation durch Renaturierung. Dies soll zu einer erhöhten biologischen Vielfalt in degradierten Schutzgebieten und in modernen Landschaftselementen führen, die so zur grünen Infrastruktur beitragen können.
 <br>
-Außerdem bin ich Vegetationskartierer in Südbayern. Ich arbeite mit GNSS für ein genaues Monitoring.
-
+Außerdem bin ich ein freiberuflicher Vegetationskartierer in Südbayern. Ich arbeite mit GNSS für ein genaues Monitoring.
 
 ::: {.column-screen style="background-color:#0d730d"}
 
@@ -173,7 +197,7 @@ markus1.bauer[at]tum.de
 
 ::: {.column-body}
 
-:::: {style="display: grid; grid-template-columns: 27% 40% 23%; grid-column-gap: 5%; "}
+:::: {style="display: grid; grid-template-columns: 30% 30% 30%; grid-column-gap: 5%; "}
 
 :::{}
 
@@ -217,43 +241,41 @@ markus1.bauer[at]tum.de
 
 :::
 
-:::: {style="display: grid; grid-template-columns: 27% 40% 23%; grid-column-gap: 5%; "}
+<br>
+
+:::: {style="display: grid; grid-template-columns: 30% 30% 30%; grid-column-gap: 5%; "}
 
 :::{}
 
-<br>
--   BNT-Kartierung (BayKompV)
--   FFH-Lebensraumtypen
--   Baumbestandspläne
--   Floristisch-vegetationskundliche Aufnahmen
--   Populationserfassung
--   Erfolgskontrolle und Dauerbeobachtungsflächen
--   Einmessung mit ppm10xx GNSS Sensor (Genauigkeit 1 cm)
+*   BNT-Kartierung (BayKompV)
+*   FFH-Lebensraumtypen
+*   Baumbestandspläne
+*   Floristisch-vegetations-kundliche Aufnahmen
+    *   Populationserfassung
+    *   Erfolgskontrolle und Dauerbeobachtungs-flächen
+*   GNSS-Sensor [ppm10xx](https://ppmgmbh.com/Download/Produkte/ppm/ppm10xx/Datenblatt/Datenblatt_ppm10xx.pdf) (Genauigkeit 1 cm)
 
 :::
 
 :::{}
 
-<br>
--   Statistische Datenanalyse mit R
-    -   Maschinenlesbare Aufbereitung der Daten
-    -   Verwendung aktueller statistischer Methoden
-    -   Abbildungserstellung mit R
--   GIS mit QGIS und R (sf package)
-    -   Digitalisierung von Vektordaten
-    -   Räumliche Analysen
-    -   Kartendarsellung
--   Dashboard mit Shiny
+*   Datenauswertung mit R\
+    *   Maschinenlesbare Aufbereitung
+    *   Abbildungserstellung
+*   GIS mit QGIS und R
+    *   Digitalisierung von Vektordaten
+    *   Räumliche Analysen
+    *   Kartendarsellung
+*   Dashboards mit Shiny
 
 :::
 
 :::{}
 
-<br>
--   Erstellung von Monitorinkonzepten
-    -   repräsentative Aufnahmeverteilung, die statistisch auswertbar sind
--   Literaturrecherche zu Forschungsfragen
--   Erstellung von Publikationen für Fachzeitschriften wie Natur und Landschaft oder ANLiegen Natur
+*   Erstellung von Monitorinkonzepten\
+    *   repräsentative Aufnahmeverteilung; statistisch auswertbar
+*   Literaturrecherche zu Forschungsfragen
+*   Erstellung von Publikationen für Fachzeitschriften ANLiegen Natur
 
 :::
 
@@ -357,4 +379,4 @@ Deutschland]{style="color:white;"}
 
 <br>
 
-:::
+![photo](images/20210603_144806.jpg){height=1100}
