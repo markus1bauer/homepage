@@ -58,7 +58,7 @@ Self-employed vegetation mapper | Landschaftsökologie Bauer
 
 </center>
 
-:::: {style="display: grid; grid-template-columns: 35% 60%; grid-column-gap: 5%; "}
+:::: {style="display: grid; grid-template-columns: 25% 70%; grid-column-gap: 5%; "}
 
 :::{}
 
