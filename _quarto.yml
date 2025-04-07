@@ -25,7 +25,7 @@ website:
       - text: "Kontakt"
         href: index.qmd#sec-kontakt
       - icon: github
-        href: "https://github.com/markus1.bauer"
+        href: "https://github.com/markus1bauer"
   page-footer:
     right:
       - text: <p>&#169; Markus Bauer, Germany; Made with <a href="https://www.quarto.org">Quarto</a></p>
