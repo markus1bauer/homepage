@@ -1,13 +1,11 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Landschaftsökologie Bauer"
   back-to-top-navigation: true
   search: false
-  theme:
-    light: flatly
-    dark: darkly
   navbar:
     background: "#0d730d"
     foreground: "white"

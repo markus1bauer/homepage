@@ -379,4 +379,4 @@ Deutschland]{style="color:white;"}
 
 <br>
 
-![photo](images/20210603_144806.jpg){height=1100}
+![photo](images/20210603_144806.jpg){height=400}
