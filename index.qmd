@@ -359,7 +359,7 @@ Deutschland]{style="color:white;"}
 
 :::
 
-::::
+:::
 
 :::
 
@@ -377,4 +377,4 @@ Deutschland]{style="color:white;"}
 <p style="color:black;"><font size="1">Festuco-Brometea &copy; Markus Bauer</font></p>
 </left>
 
-::::
+:::
