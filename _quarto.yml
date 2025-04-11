@@ -14,14 +14,10 @@ website:
       - icon: house-door-fill
         text: " "
         href: index.qmd
-      - text: "Research"
-        href: index.qmd#sec-research
       - text: "Publications"
-        href: index.qmd#sec-publications
-      - text: "Vegetationskartierung"
-        href: index.qmd#sec-loekb
+        href: publications.qmd
       - text: "Referenzen"
-        href: index.qmd#sec-referenzen
+        href: referenzen.qmd
       - text: "Kontakt"
         href: index.qmd#sec-kontakt
       - icon: github
