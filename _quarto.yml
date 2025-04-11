@@ -24,7 +24,7 @@ website:
         href: "https://github.com/markus1bauer/loekb"
   page-footer:
     right:
-      - text: <p>&#169; Markus Bauer, Germany; Made with <a href="https://www.quarto.org">Quarto</a></p>
+      - text: <p>&#169; Markus Bauer 2025; Made with <a href="https://www.quarto.org">Quarto</a></p>
       - text: "Impressum"
         href: impressum.qmd
       - text: "Datenschutz"
