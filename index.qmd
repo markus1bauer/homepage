@@ -129,6 +129,7 @@ Außerdem bin ich ein freiberuflicher Vegetationskartierer in Südbayern für Wa
 
 :::
 
+### [Publications](publications.qmd)
 
 ### Affiliation
 
@@ -245,6 +246,8 @@ markus1.bauer[at]tum.de
 
 :::
 
+### [Referenzen](referenzen.qmd)
+
 <br>
 <br>
 
@@ -317,5 +320,3 @@ Deutschland]{style="color:white;"}
 <left>
 <p style="color:black;"><font size="1">Festuco-Brometea &copy; Markus Bauer</font></p>
 </left>
-
-:::
