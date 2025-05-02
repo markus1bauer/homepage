@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Landschaftsökologie Bauer"
+  description: "Markus Bauer ist selbständiger Vegetationskartierer und Wissenschaftler. Schwerpunkte sind das Monitoring, Biotopkartierung, GIS-Analysen und Statistik."
+  site-url: "https://markus1bauer.github.io/homepage/"
   back-to-top-navigation: true
   search: false
   navbar:
