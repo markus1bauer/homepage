@@ -7,7 +7,7 @@ library(fontawesome)
 
 <style>
   body {
-  background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(images/Glatthaferwiese_schmal.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6) ), url(images/Glatthaferwiese_schmal.jpg);
   background-color: rgba(255, 255, 255, 0.1);
   background-size: Auto 400px;
   background-repeat: no-repeat;
