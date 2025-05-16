@@ -46,13 +46,13 @@ Self-employed vegetation mapper | Landschaftsökologie Bauer
 
 I am an ecologist interested in the predictable development of target vegetation through ecological restoration approaches. This should lead to increased biodiversity in degraded protected areas and in modern landscape features that can therefore contribute to green infrastructure.
 <br>
-Furthermore, I am a self-employed vegetation mapper in southern Bavaria for forests and open ecosystems. I work with GNSS for an exact monitoring.
+Furthermore, I am a freelance vegetation mapper in southern Bavaria for forest and grassland in the context of monitoring projects and biotope mapping. I also create monitoring concepts and work with GNSS for the exact localisation of permanent plots.
 
 ### Über
 
-Ich bin Ökologe und interessiere mich für das Thema der zuverlässigen Entwicklung der Zielvegetation durch Renaturierung. Dies soll zu einer erhöhten biologischen Vielfalt in degradierten Schutzgebieten und in modernen Landschaftselementen führen, die so zur grünen Infrastruktur beitragen können.
+Ich bin ein freiberuflicher Vegetationskartierer in Südbayern für Wald und Offenland im Rahmen von Monitoringarbeiten und Biotopkartierungen. Außerdem erstelle ich Monitoringkonzepte und arbeite mit GNSS für ein exakte Verortung von Dauerbeobachtungsflächen.
 <br>
-Außerdem bin ich ein freiberuflicher Vegetationskartierer in Südbayern für Wald und Offenland. Ich arbeite mit GNSS für ein genaues Monitoring.
+Außerdem bin ich Ökologe und interessiere mich für das Thema der zuverlässigen Entwicklung der Zielvegetation durch Renaturierung. Dies soll zu einer erhöhten biologischen Vielfalt in degradierten Schutzgebieten und in modernen Landschaftselementen führen, die so zur grünen Infrastruktur beitragen können.
 <br>
 <br>
 
@@ -177,7 +177,7 @@ markus1.bauer[at]tum.de
 
 ![](images/project_10164341_white.png){width=128}
 <br>
-[**Monitoring und Literaturstudien**]{style="color:white;"}
+[**Monitoring und Literatur&shy;studien**]{style="color:white;"}
 
 </center>
 
