@@ -1,9 +1,7 @@
 /* css styles */
 
-body {
-  background-image: Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg
-  background-size: cover;
-  background-repeat: no-repeat;
-  /*background-position: center center;*/
-  /*background-attachment: fixed;*/
+.navbar.navbar-default {
+  padding: 10px 0;
+  background: rgba(0, 0, 0, .1);
+  border: none;
 }

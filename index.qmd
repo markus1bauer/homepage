@@ -1,46 +1,25 @@
-
 ```{r include=FALSE}
 library(here)
 library(tidyverse)
 library(fontawesome)
 ```
 
-<style>
-  body {
-  background-image: linear-gradient(rgba(0,0,0,.05), rgba(0,0,0,.05) ), url(images/Glatthaferwiese_schmal.jpg);
-  background-color: rgba(255, 255, 255, 0.1);
-  background-size: Auto 400px;
-  background-repeat: no-repeat;
-  background-position: center top;
-}
-</style>
+::: {.column-screen style="background-color:#FFFFFF"}
+
+```{r Salvio-Arrhenateretum, echo=FALSE, align="center", fig.cap="[Salvio-Arrhenatheretum](https://floraveg.eu/vegetation/overview/arrhenatherion) &copy; Markus Bauer"}
+knitr::include_graphics(here("images", "titel.png"))
+```
+
+:::
+
+::: {.column-body}
 
 <center>
 
-<p style="color:white;">
+<p style="color:black;">
 Dr. rer. nat.<br>
 **Markus Bauer**
 </p>
-
-</center>
-
-<center>
-
-```{r pressure, echo=FALSE, out.width='25%', align="center"}
-cropcircles::crop_circle(
-  here("images", "Foto_2023_Markus-Bauer_TinoGrafiert-00204_quadrat.jpg"),
-  border_size = 10,
-  border_colour = "white"
-  ) %>%
-  magick::image_read()
-```
-</center>
-
-<left>
-<p style="color:black;"><font size="1">Salvio-Arrhenatheretum &copy; Markus Bauer</font></p>
-</left>
-
-<center>
 
 Researcher | Technical University of Munich
 <br>
@@ -55,13 +34,13 @@ Self-employed vegetation mapper | Landschaftsökologie Bauer
 
 </center>
 
-<center>
+<!-- <center> -->
 
-[Research | Forschung](index.qmd#sec-research){.btn .btn-outline-primary .btn role="button"}
-[Vegetation mapping | Vegetationskartierung](index.qmd#sec-loekb){.btn .btn-outline-primary .btn role="button"}
-[Contact | Kontakt](index.qmd#sec-kontakt){.btn .btn-outline-primary .btn role="button"}
+<!-- [Research | Forschung](index.qmd#sec-research){.btn .btn-outline-primary .btn role="button"} -->
+<!-- [Vegetation mapping | Vegetationskartierung](index.qmd#sec-loekb){.btn .btn-outline-primary .btn role="button"} -->
+<!-- [Contact | Kontakt](index.qmd#sec-kontakt){.btn .btn-outline-primary .btn role="button"} -->
 
-</center>
+<!-- </center> -->
 
 ### About
 
@@ -76,6 +55,8 @@ Ich bin Ökologe und interessiere mich für das Thema der zuverlässigen Entwick
 Außerdem bin ich ein freiberuflicher Vegetationskartierer in Südbayern für Wald und Offenland. Ich arbeite mit GNSS für ein genaues Monitoring.
 <br>
 <br>
+
+:::
 
 ::: {.column-screen style="background-color:#0d730d"}
 
@@ -159,7 +140,7 @@ markus1.bauer[at]tum.de
 
 ::: {.column-screen style="background-color:#0d730d"}
 
-# [Landschaftsökologie Bauer]{style="color:white;"}{#sec-loekb}
+# [Landschafts&shy;ökologie Bauer]{style="color:white;"}{#sec-loekb}
 <br>
 
 ::: {.column-body}
@@ -172,7 +153,7 @@ markus1.bauer[at]tum.de
 
 ![](images/map_636573_white.png){width=128}
 <br>
-[**Vegetationskartierung**]{style="color:white;"}
+[**Vegetations&shy;kartierung**]{style="color:white;"}
 
 </center>
 
@@ -210,7 +191,7 @@ markus1.bauer[at]tum.de
 
 <br>
 
-#### Vegetationskartierung
+#### **Vegetationskartierung**
 
 *   BNT-Kartierung (BayKompV)
 *   FFH-Lebensraumtypen
@@ -220,7 +201,7 @@ markus1.bauer[at]tum.de
     *   Erfolgskontrolle und Dauerbeobachtungs-flächen
 *   GNSS-Sensor [ppm10xx](https://ppmgmbh.com/Download/Produkte/ppm/ppm10xx/Datenblatt/Datenblatt_ppm10xx.pdf) (Genauigkeit 1 cm)
 
-### Statistische Datenanalyse
+#### **Statistische Datenanalyse**
 
 *   Datenauswertung mit R\
     *   Maschinenlesbare Aufbereitung
@@ -231,20 +212,18 @@ markus1.bauer[at]tum.de
     *   Kartendarsellung
 *   Dashboards mit Shiny
 
-#### Monitoring und Literaturstudien
+#### **Monitoring und Literaturstudien**
 
 *   Erstellung von Monitorinkonzepten\
     *   repräsentative Aufnahmeverteilung; statistisch auswertbar
 *   Literaturrecherche zu Forschungsfragen
-*   Erstellung von Publikationen für Fachzeitschriften ANLiegen Natur
-
+*   Erstellung von Publikationen für Fachzeitschriften wie ANLiegen Natur
 
 ### [Referenzen](referenzen.qmd)
 
 <br>
 <br>
 
-:::
 
 ::: {.column-screen style="background-color:#0d730d"}
 
@@ -260,7 +239,7 @@ markus1.bauer[at]tum.de
 
 [`r fa(name = "map-marker-alt", height = "2em")`]{style="color:white;"}
 
-[**Landschaftsökologie Bauer**
+[**Landschafts&shy;ökologie Bauer**
 <br>
 85354 Freising
 <br>
@@ -276,7 +255,7 @@ Deutschland]{style="color:white;"}
 
 [`r fa(name = "envelope", height = "2em")`]{style="color:white;"}
 
-[landschaftsoekologie-bauer\@mailbox.org](mailto:landschaftsoekologie-bauer@mailbox.org){style="color:white;"}
+[landschafts&shy;oekologie-bauer&shy;\@mailbox.org](mailto:landschaftsoekologie-bauer@mailbox.org){style="color:white;"}
 
 </center>
 
@@ -302,14 +281,6 @@ Deutschland]{style="color:white;"}
 
 ::: {.column-screen style="background-color:#FFFFFF"}
 
-<center>
-![](images/20210603_144806.jpg){height=700}
-</center>
-
-:::
-
-::: {.column-body}
-
-<left>
-<p style="color:black;"><font size="1">Festuco-Brometea &copy; Markus Bauer</font></p>
-</left>
+```{r Festuco-Brometea, echo=FALSE, align="center", fig.cap="[Cirsio-Bracypodion pinnati](https://floraveg.eu/vegetation/overview/Cirsio-Brachypodion%20pinnati) &copy; Markus Bauer"}
+knitr::include_graphics(here("images", "20210603_144806.jpg"))
+```
