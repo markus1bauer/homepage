@@ -210,9 +210,7 @@ markus1.bauer[at]tum.de
 
 <br>
 
-:::: {style="display: grid; grid-template-columns: 30% 30% 30%; grid-column-gap: 5%; "}
-
-:::{}
+#### Vegetationskartierung
 
 *   BNT-Kartierung (BayKompV)
 *   FFH-Lebensraumtypen
@@ -222,9 +220,7 @@ markus1.bauer[at]tum.de
     *   Erfolgskontrolle und Dauerbeobachtungs-flächen
 *   GNSS-Sensor [ppm10xx](https://ppmgmbh.com/Download/Produkte/ppm/ppm10xx/Datenblatt/Datenblatt_ppm10xx.pdf) (Genauigkeit 1 cm)
 
-:::
-
-:::{}
+### Statistische Datenanalyse
 
 *   Datenauswertung mit R\
     *   Maschinenlesbare Aufbereitung
@@ -235,16 +231,13 @@ markus1.bauer[at]tum.de
     *   Kartendarsellung
 *   Dashboards mit Shiny
 
-:::
-
-:::{}
+#### Monitoring und Literaturstudien
 
 *   Erstellung von Monitorinkonzepten\
     *   repräsentative Aufnahmeverteilung; statistisch auswertbar
 *   Literaturrecherche zu Forschungsfragen
 *   Erstellung von Publikationen für Fachzeitschriften ANLiegen Natur
 
-:::
 
 ### [Referenzen](referenzen.qmd)
 
